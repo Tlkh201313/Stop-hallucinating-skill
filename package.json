@@ -1,15 +1,13 @@
 {
   "name": "anti-hallucination-skill",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prevent, detect, and reduce AI hallucinations in LLM outputs. A comprehensive skill with prompts, techniques, and validation tools.",
-  "main": "index.js",
   "bin": {
-    "anti-hallucination": "./bin/cli.js",
-    "anti-hall": "./bin/cli.js"
+    "anti-hallucination": "bin/cli.js",
+    "anti-hall": "bin/cli.js"
   },
   "scripts": {
-    "test": "node bin/cli.js validate --help",
-    "postinstall": "node scripts/postinstall.js"
+    "test": "node bin/cli.js --help"
   },
   "keywords": [
     "ai",
@@ -31,7 +29,7 @@
   },
   "homepage": "https://github.com/Tlkh201313/Stop-hallucinating-skill#readme",
   "bugs": {
-    "url": "https://github.com/Tlkh201313/Stop-hallucination-skill/issues"
+    "url": "https://github.com/Tlkh201313/Stop-hallucinating-skill/issues"
   },
   "engines": {
     "node": ">=14.0.0"
