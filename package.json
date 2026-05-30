@@ -1,6 +1,6 @@
 {
   "name": "anti-hallucination-skill",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Prevent, detect, and reduce AI hallucinations in LLM outputs. A comprehensive skill with prompts, techniques, and validation tools.",
   "bin": {
     "anti-hallucination": "bin/cli.js",
