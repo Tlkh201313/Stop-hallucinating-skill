@@ -324,10 +324,6 @@ function main() {
     log(`  npx anti-hallucination-skill guide              Show quick guide`);
     log(`  npx anti-hallucination-skill readme             Show README`);
     log('');
-    log(`${colors.bold}Shortcuts:${colors.reset}`);
-    log(`  npx anti-hall install`);
-    log(`  npx anti-hall validate --text "..."`);
-    log('');
     log(`${colors.bold}Examples:${colors.reset}`);
     log(`  npx anti-hallucination-skill install`);
     log(`  npx anti-hallucination-skill validate --text "Studies show 73% of users..."`);

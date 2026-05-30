@@ -90,7 +90,7 @@ Cargo.lock
 **/*.rs.bk
 
 # Go
-bin/
+bin/*
 !bin/cli.js
 *.exe
 *.exe~
