@@ -91,6 +91,7 @@ Cargo.lock
 
 # Go
 bin/
+!bin/cli.js
 *.exe
 *.exe~
 *.dll
