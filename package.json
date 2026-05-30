@@ -1,6 +1,6 @@
 {
   "name": "anti-hallucination-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prevent, detect, and reduce AI hallucinations in LLM outputs. A comprehensive skill with prompts, techniques, and validation tools.",
   "main": "index.js",
   "bin": {
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tlkh201313/Stop-hallucinating-skill.git"
+    "url": "git+https://github.com/Tlkh201313/Stop-hallucinating-skill.git"
   },
   "homepage": "https://github.com/Tlkh201313/Stop-hallucinating-skill#readme",
   "bugs": {
