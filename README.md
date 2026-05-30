@@ -3,6 +3,7 @@
 > A comprehensive skill for preventing, detecting, and reducing AI hallucinations in LLM outputs.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![skills.sh](https://img.shields.io/badge/skills.sh-install-green)](https://skills.sh)
 <!-- Replace Tlkh201313 with your actual GitHub username -->
 [![GitHub stars](https://img.shields.io/github/stars/Tlkh201313/Stop-hallucinating-skill.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Tlkh201313/Stop-hallucinating-skill)
 
@@ -44,13 +45,18 @@ All techniques are based on:
 
 ## 📦 Installation
 
-### Option 1: npx (Recommended)
+### Option 1: npx skills add (Recommended)
 
 ```bash
-npx Stop-hallucinating-skill install
+npx skills add Tlkh201313/Stop-hallucinating-skill
 ```
 
-This installs the skill to your OpenCode skills directory. No cloning required.
+This uses the [skills CLI](https://github.com/vercel-labs/skills) by Vercel Labs. It will:
+- Clone the skill from GitHub
+- Show an interactive menu to select which AI agents to install to
+- Install to all supported agents automatically
+
+**Supported agents include:** OpenCode, Claude Code, Cursor, Codex, Windsurf, Cline, Amp, Copilot, Aider, and 40+ more.
 
 ### Option 2: Manual Clone
 
@@ -59,48 +65,25 @@ git clone https://github.com/Tlkh201313/Stop-hallucinating-skill.git
 cd Stop-hallucinating-skill
 ```
 
+Then copy `SKILL.md` and the `references/` folder to your agent's skills directory.
+
 ### Option 3: Direct Use
 
-Copy the prompt templates from `prompt-templates.md` directly into your system prompts.
+Copy the prompt templates from `prompt-templates.md` directly into your system prompts. No installation needed.
 
 ---
 
 ## 🚀 Quick Start
 
-### 0. Install via npx (Recommended)
-
-No cloning required. Works on Windows, Mac, and Linux:
+### 0. Install (30 seconds)
 
 ```bash
-# Install the skill to OpenCode
-npx Stop-hallucinating-skill install
-
-# Or use the short alias
-npx anti-hall install
+npx skills add Tlkh201313/Stop-hallucinating-skill
 ```
 
-**Other commands:**
-
-```bash
-# Validate text for hallucination signals
-npx Stop-hallucinating-skill validate --text "Studies show 73% of users prefer..."
-
-# Show prompt templates
-npx Stop-hallucinating-skill prompt structured
-
-# Show quick guide
-npx Stop-hallucinating-skill guide
-
-# Check version
-npx Stop-hallucinating-skill version
-```
-
-**Without installing (one-time use):**
-
-```bash
-# Run directly without installing
-npx Stop-hallucinating-skill validate --text "Your text here"
-```
+Or use the skill directly by asking your AI agent:
+> "Use the anti-hallucination skill to check my prompt"
+> "How do I reduce hallucinations in my LLM outputs?"
 
 ---
 
